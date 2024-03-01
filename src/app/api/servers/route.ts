@@ -31,7 +31,7 @@ export async function POST(req:Request) {
                     create:[
                         {
                             profileId:profile.id,
-                            role:MemberRole.ADMOIN
+                            role:MemberRole.ADMIN
                         }
                     ]
                 }
